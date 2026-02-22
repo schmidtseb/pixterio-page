@@ -1,11 +1,10 @@
 const CACHE_NAME = 'pixterio-v1';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/manifest.json',
-  '/favicon.ico',
-  '/logo192.png',
-  '/logo512.png'
+  'index.html',
+  'manifest.json',
+  'favicon.ico',
+  'logo192.png',
+  'logo512.png'
 ];
 
 self.addEventListener('install', event => {
